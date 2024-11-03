@@ -2,13 +2,35 @@
     "name": "ARMA",
     "logo": {
         "light": "/logo/arma.svg",
-        "dark": "/logo/arma.svg",
-        "href": "https://arma.gizatech.xyz"
+        "dark": "/logo/arma.svg"
     },
     "favicon": "/favicon.svg",
     "colors": {
         "primary": "#DFFE00",
-        "light": "#1A1A1A",
-        "dark": "#1A1A1A"
+        "light": "#FFFFFF",
+        "dark": "#000000",
+        "anchors": {
+            "from": "#DFFE00",
+            "to": "#9CB000"
+        }
+    },
+    "topbarLinks": [],
+    "topbarCtaButton": {
+        "name": "Launch App",
+        "url": "https://arma.gizatech.xyz"
+    },
+    "navigation": [
+        {
+            "group": "Getting Started",
+            "pages": [
+                "introduction",
+                "quickstart"
+            ]
+        }
+    ],
+    "footerSocials": {
+        "twitter": "https://twitter.com/gizatech",
+        "github": "https://github.com/gizatech",
+        "discord": "https://discord.gg/gizatech"
     }
 }
