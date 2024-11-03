@@ -1,17 +1,13 @@
 {
     "name": "ARMA",
-    "logo": {
-        "light": "/logo/arma.svg",
-        "dark": "/logo/arma.svg"
-    },
-    "favicon": "/favicon.svg",
+    "logo": "/logo/arma.svg",
+    "favicon": "/logo/arma.svg",
     "colors": {
         "primary": "#DFFE00",
-        "light": "#FFFFFF",
-        "dark": "#000000",
+        "dark": "#DFFE00",
         "anchors": {
             "from": "#DFFE00",
-            "to": "#9CB000"
+            "to": "#DFFE00"
         }
     },
     "topbarLinks": [],
@@ -23,14 +19,40 @@
         {
             "group": "Getting Started",
             "pages": [
-                "introduction",
-                "quickstart"
+                "docs/introduction",
+                "docs/overview",
+                "docs/core-features"
+            ]
+        },
+        {
+            "group": "How ARMA Works",
+            "pages": [
+                "docs/how-it-works",
+                "docs/agent-components",
+                "docs/security"
+            ]
+        },
+        {
+            "group": "User Guide",
+            "pages": [
+                "docs/getting-started",
+                "docs/fees"
+            ]
+        },
+        {
+            "group": "Help & Reference",
+            "pages": [
+                "docs/faqs",
+                "docs/glossary"
             ]
         }
     ],
     "footerSocials": {
-        "twitter": "https://twitter.com/gizatech",
-        "github": "https://github.com/gizatech",
-        "discord": "https://discord.gg/gizatech"
+        "twitter": "https://x.com/gizatechxyz",
+        "github": "https://github.com/gizatechxyz"
+    },
+    "modeToggle": {
+        "default": "dark",
+        "isHidden": true
     }
 }

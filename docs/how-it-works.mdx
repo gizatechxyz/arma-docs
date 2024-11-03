@@ -1,0 +1,33 @@
+---
+title: "How It Works"
+description: "Understanding ARMA's operation and architecture"
+---
+
+## Smart Account Architecture
+
+ARMA utilizes a smart account architecture powered by account abstraction. This means:
+
+1. Your funds are held in a smart contract wallet that only you control
+2. The ARMA agent receives limited permissions through session keys
+3. You maintain full custody and can revoke access at any time
+
+## Yield Optimization Process
+
+The agent follows a systematic approach to optimize yields:
+
+1. **Market Analysis**: Continuously monitors yield rates across supported protocols
+2. **Opportunity Evaluation**: Calculates potential returns accounting for:
+   - Current APY rates
+   - Gas costs for transactions
+   - Minimum position sizes
+   - Protocol risks
+
+3. **Position Management**: 
+   - Opens new positions when profitable opportunities are identified
+   - Closes positions when better opportunities arise
+   - Maintains optimal position sizes for maximum returns
+
+4. **Risk Management**:
+   - Diversifies positions across protocols
+   - Monitors protocol health and TVL
+   - Implements safety thresholds and circuit breakers
