@@ -54,5 +54,6 @@
     "modeToggle": {
         "default": "dark",
         "isHidden": true
-    }
+    },
+    "default": "docs/introduction"
 }
