@@ -1,0 +1,14 @@
+{
+    "name": "ARMA",
+    "logo": {
+        "light": "/logo/arma.svg",
+        "dark": "/logo/arma.svg",
+        "href": "https://arma.gizatech.xyz"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#DFFE00",
+        "light": "#1A1A1A",
+        "dark": "#1A1A1A"
+    }
+}
