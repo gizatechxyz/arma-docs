@@ -17,9 +17,8 @@
     },
     "navigation": [
         {
-            "group": "Getting Started",
+            "group": "Introduction",
             "pages": [
-                "docs/introduction",
                 "docs/overview",
                 "docs/core-features"
             ]
