@@ -1,26 +1,15 @@
 ---
 title: "Agent Components"
-description: "Understanding ARMA's key components"
 ---
 
-ARMA consists of several key components working together:
+## Smart Account Architecture
 
-## Smart Account
-- Holds your funds securely
-- Executes transactions based on agent instructions
-- Implements safety checks and limits
+At the core of ARMA's security framework is its self-custodial smart account architecture. Each smart account is automatically created during activation and remains under the complete control of the user's wallet. This architecture ensures that Giza never has access to private keys or funds, while enabling secure management of deposited assets and protocol interactions. The smart account serves as a secure foundation for all of ARMA's automated operations.
 
-## Optimization Engine
-- Analyzes market opportunities
-- Calculates optimal positions
-- Makes rebalancing decisions
+## Session Keys
+
+ARMA utilizes advanced session key technology to enable automated yield optimization while maintaining robust security. These keys grant specific, limited permissions for interacting with selected protocols and operate within strict time-bound authorizations. Users maintain full control, with the ability to revoke permissions at any time. All operations are secured through smart contract permissions, ensuring that session keys can never access user funds directly.
 
 ## Execution Module
-- Handles transaction scheduling
-- Manages gas costs
-- Ensures reliable execution
 
-## Monitoring System
-- Tracks performance metrics
-- Monitors protocol health
-- Alerts on important events
+ARMA's execution module orchestrates all agent operations with maximum efficiency. This component handles the precise scheduling of transactions, optimizes timing for protocol interactions, and ensures reliable execution of all operations. The module operates as the operational backbone of ARMA, coordinating all automated actions while maintaining security and performance.
