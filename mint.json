@@ -10,6 +10,13 @@
             "to": "#DFFE00"
         }
     },
+    "anchors": [
+        {
+            "name": "Join our Discord",
+            "icon": "discord",
+            "url": "https://discord.gg/CEyfSNYEVa"
+        }
+    ],
     "topbarLinks": [],
     "topbarCtaButton": {
         "name": "Launch App",
