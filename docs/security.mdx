@@ -13,3 +13,25 @@ The platform implements a sophisticated wallet-to-wallet authentication system w
 ## Risk Management
 
 ARMA employs a comprehensive risk management framework that starts with limiting protocol exposure to carefully selected platforms. All operations maintain complete transparency through detailed transaction histories and status tracking. The platform focuses on stable lending yields and ensures users can always return to their original token upon withdrawal. Regular security audits and comprehensive system monitoring create a secure operational environment with full traceability of all actions.
+
+### **DeFi Protocol Risks**
+
+While ARMA implements multiple security layers and undergoes rigorous audits, it's important to understand that the agent interacts with various DeFi protocols that maintain their own independent security measures. Users should be aware of the following inherent Web3 risks when using ARMA:
+
+**Protocol Risks:**
+
+* Smart Contract Risk: Each lending protocol (Ionic, Layerbank, Ironclad) operates using smart contracts that, despite audits, may contain undiscovered vulnerabilities.
+
+* Economic Design Risk: Protocol incentive mechanisms and economic models may experience unexpected behaviors during extreme market conditions.
+
+* Oracle Risk: Protocols rely on price feeds that could potentially be manipulated or experience technical issues.
+
+**Market Risks:**
+
+* Slippage: When ARMA performs token swaps between USDC and USDT, price impact may occur depending on pool liquidity.
+
+* Liquidity Risk: During periods of high market volatility, protocol liquidity may become constrained, potentially affecting deposit or withdrawal operations.
+
+To address these risks, ARMA employs several protective measures in its design and operation. The agent exclusively interacts with established protocols that have demonstrated security through comprehensive audits and operational track records. Throughout its operations, ARMA maintains strict slippage protection mechanisms during token swaps and enforces parameter boundaries on all protocol interactions. These guardrails help protect user funds while maintaining operational efficiency. Most importantly, users retain complete control over their positions through the ability to deactivate the agent and withdraw their funds at any time, providing an additional layer of risk management.
+
+ARMA's security architecture provides protection against agent-level risks, but users should understand and accept the inherent risks of interacting with DeFi protocols. We recommend users perform their own due diligence on protocols and only deploy capital they can afford to risk.
