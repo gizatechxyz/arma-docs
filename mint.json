@@ -13,7 +13,7 @@
     "topbarLinks": [],
     "topbarCtaButton": {
         "name": "Launch App",
-        "url": "https://arma.gizatech.xyz"
+        "url": "https://arma.xyz"
     },
     "navigation": [
         {
@@ -42,7 +42,9 @@
             "group": "Help & Reference",
             "pages": [
                 "docs/faqs",
-                "docs/glossary"
+                "docs/glossary",
+                "docs/terms-and-conditions",
+                "docs/privacy-policy"
             ]
         }
     ],
